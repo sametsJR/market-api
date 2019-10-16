@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-  describe ProductDecorator do
+RSpec.describe ProductDecorator do
 
-  end
+end
