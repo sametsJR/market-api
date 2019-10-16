@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+  helper_method :resource, :collection
+
   def new
     initialize_resource
   end
