@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-Rspec.describe Api::ProductsController do
-
+RSpec.describe Api::ProductsController, type: :controller do
+  
 end

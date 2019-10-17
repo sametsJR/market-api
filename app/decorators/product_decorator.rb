@@ -5,8 +5,8 @@ class ProductDecorator < Draper::Decorator
     {
       id: id,
       name: name,
-      price: price,
-      description: description
+      description: description,
+      price: price
     }
   end
 end

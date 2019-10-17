@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-Rspec.describe Api::UsersController do
-
+RSpec.describe Api::UsersController, type: :controller do
+  
 end
